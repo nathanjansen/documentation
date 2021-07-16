@@ -305,7 +305,7 @@ Log out and log back in so that your group membership is re-evaluated.
 
 ```text
 $ exit
-$ ssh -p <new_ssh_port>@<ip-address>
+$ ssh -p <new_ssh_port> <user>@<ip-address>
 example: ssh -p 51234 john@13.37.13.37
 ```
 
