@@ -263,6 +263,11 @@ First check the status of the firewall:
 $ sudo ufw status
 ```
 
+It will probably output this
+```text
+Status: inactive
+```
+
 Now we’re going to set up the firewall, blocking all the ports but allowing traffic on the ports for your SSH connection and opening the port for synchronization with other nodes in the network.
 
 ```text
